@@ -20,6 +20,7 @@ To start it automatically, put a shortcut in the Startup folder (Win+R, `shell:s
 
 The printer must support ESC/POS, as nearly all thermal receipt printers do. The cash drawer plugs into the printer's RJ11 port.
 
+- **Serial**: choose **Serial printer (COM port)**, then the COM port and baud rate. On some POS computers a COM port looks like a network socket, so check the label.
 - **USB**: install the printer in Windows first, then choose it in Settings.
 - **Network**: enter the printer's IP address.
 
