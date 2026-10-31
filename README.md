@@ -12,7 +12,7 @@ Requires 64-bit Windows 10 or 11. This repository only hosts releases. The sourc
 1. Create the folder `C:\SimplePOS` and put `SimplePOS.exe` in it. Do not use `Program Files`.
 2. Double-click `SimplePOS.exe`. If SmartScreen appears, choose **More info > Run anyway**.
 3. Tap **Admin** on the sign-in screen and set the admin password.
-4. In **Settings**, set the shop name, tax rate and printer. Replace the sample products and employees.
+4. In **Settings**, set the shop name and printer. Replace the sample products and employees, and set each product's tax rate: 0%, 9% or 21%.
 5. Change the sample employee's PIN. It starts as `1234`.
 
 To start it automatically, put a shortcut in the Startup folder (Win+R, `shell:startup`).
@@ -25,7 +25,7 @@ The printer must support ESC/POS, as nearly all thermal receipt printers do. The
 - **USB**: install the printer in Windows first, then choose it in Settings.
 - **Network**: enter the printer's IP address.
 
-Use **Print test page** and **Test drawer** in Settings to check it.
+Set **Printer type** to **Star** for Star printers. Use **Print test page** and **Test drawer** in Settings to check it.
 
 ## Reports from another device
 
