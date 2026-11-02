@@ -1,4 +1,3 @@
-$b=[byte[]]@(7,27,112,0,100,250); foreach($n in [IO.Ports.SerialPort]::GetPortNames()){ "Testing $n"; try{ $p=New-Object IO.Ports.SerialPort $n,9600; $p.Open(); $p.DtrEnable=$true; $p.RtsEnable=$true; $p.Write($b,0,6); sleep 1; $p.DtrEnable=$false; $p.RtsEnable=$false; $p.Close() }catch{ "  failed: $_" }; sleep 2 }
 # SimplePOS
 
 A simple point-of-sale register for one Windows computer. One file, nothing to install.
